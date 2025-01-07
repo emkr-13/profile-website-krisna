@@ -19,7 +19,6 @@ export default function Home() {
             <ul className="list-disc list-inside text-gray-600">
               <li>Frontend Development</li>
               <li>Backend Development</li>
-              <li>UI/UX Design</li>
               <li>Database Management</li>
             </ul>
           </div>

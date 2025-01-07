@@ -5,7 +5,7 @@ export default function About() {
         <h1 className="text-4xl font-bold mb-8">About Me</h1>
         <div className="prose max-w-none">
           <p className="text-lg mb-4">
-            Hello! I'm John Doe, a passionate web developer with over 5 years of
+            Hello! I'm Krisna, a passionate web developer with over 2 years of
             experience in creating digital solutions. I love turning complex
             problems into simple, beautiful, and intuitive designs.
           </p>

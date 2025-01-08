@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-commerce Platform",
+      "description": "A full-featured e-commerce platform built with Next.js and Stripe.",
+      "year": 2024,
+      "link": "https://ecommerce-project.com",
+      "technologies": ["Next.js", "React", "Stripe"]
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates.",
+      "year": 2023,
+      "link": "https://task-management.com",
+      "technologies": ["React", "Node.js", "Socket.io"]
+    }
+  ]
+}

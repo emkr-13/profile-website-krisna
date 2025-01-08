@@ -1,0 +1,29 @@
+{
+    "experiences": [
+      {
+        "title": "Senior Developer - Tech Company",
+        "period": "2020 - Present",
+        "description": "Lead development of various web applications and mentored junior developers.",
+        "responsibilities": [
+          "Managed team of 5 junior developers",
+          "Implemented CI/CD pipeline reducing deployment time by 40%",
+          "Developed microservices architecture for scalability",
+          "Led technical design discussions and code reviews",
+          "Optimized application performance improving load times by 60%"
+        ]
+      },
+      {
+        "title": "Web Developer - Digital Agency",
+        "period": "2018 - 2020",
+        "description": "Developed responsive websites and e-commerce solutions for clients.",
+        "responsibilities": [
+          "Built 20+ responsive websites using React and Next.js",
+          "Implemented payment gateway integrations for e-commerce sites",
+          "Optimized SEO performance achieving 90+ lighthouse scores",
+          "Collaborated with design team to implement pixel-perfect designs",
+          "Maintained and updated existing client websites"
+        ]
+      }
+    ]
+  }
+  

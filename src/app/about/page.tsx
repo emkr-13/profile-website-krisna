@@ -1,5 +1,7 @@
-import experienceData from './experience.json';
-
+import experienceData from "./experience.json";
+export const metadata = {
+  title: "About",
+};
 export default function About() {
   return (
     <main className="min-h-screen pt-20 bg-white">

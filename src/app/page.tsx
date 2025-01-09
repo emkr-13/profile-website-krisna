@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Image from "next/image";
-import technologies from "./technologies.json";
-import skills from "./skills.json";
+import technologies from "./data/technologies.json";
+import skills from "./data/skills.json";
 
 export const metadata = {
   title: "Home",

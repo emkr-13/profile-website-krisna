@@ -1,4 +1,7 @@
-import experienceData from "./experience.json";
+import experienceData from "../data/experience.json";
+import technologies from "../data/technologies.json";
+import Image from "next/image";
+
 export const metadata = {
   title: "About",
 };
@@ -11,12 +14,12 @@ export default function About() {
         </h1>
         <div className="prose max-w-none">
           <p className="text-black text-lg mb-4 text-justify">
-            Halo! Saya Krisna, seorang Fullstack Developer dan
-            Data Scientist dengan pengalaman lebih dari 2 tahun di industri
-            teknologi. Meski menguasai pengembangan fullstack, saya memiliki
-            keahlian khusus dalam backend development dan database management.
-            Saya terus mengembangkan kemampuan front-end untuk mempertajam skill
-            sebagai developer yang komprehensif.
+            Halo! Saya Krisna, seorang Fullstack Developer dan Data Scientist
+            dengan pengalaman lebih dari 2 tahun di industri teknologi. Meski
+            menguasai pengembangan fullstack, saya memiliki keahlian khusus
+            dalam backend development dan database management. Saya terus
+            mengembangkan kemampuan front-end untuk mempertajam skill sebagai
+            developer yang komprehensif.
           </p>
           <p className="text-black text-lg mb-4 text-justify">
             Sebagai Data Scientist, saya berfokus pada pengembangan model dan
@@ -30,7 +33,30 @@ export default function About() {
             memungkinkan saya untuk memberikan solusi teknologi yang holistik
             dan berbasis data. Saya selalu antusias untuk menghadapi tantangan
             baru dan berkontribusi dalam proyek-proyek yang inovatif."
-          </p>
+          </p>{" "}
+          <div className="mt-12">
+            <h2 className="text-black text-2xl font-bold mb-8">
+              Teknologi yang Saya Gunakan
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6">
+              {technologies.technologies.map((tech, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:shadow-md transition-shadow"
+                >
+                  {/* Tambahkan next.config.js untuk mengizinkan domain gambar */}
+                  <Image
+                    src={tech.icon}
+                    alt={`${tech.name} icon`}
+                    width={50}
+                    height={50}
+                    unoptimized={true} // Untuk gambar dari CDN
+                  />
+                  <p className="mt-2 text-sm text-gray-700">{tech.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
           <h2 className="text-black text-2xl font-bold mt-8 mb-4">
             Pengalaman
           </h2>

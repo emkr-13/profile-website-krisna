@@ -1,7 +1,7 @@
 "use client"; // Add this at the top to make it a client component
 
 import { useState } from "react";
-import projectsData from "./projects.json";
+import projectsData from "../data/projects.json";
 
 export default function Projects() {
   const [selectedYear, setSelectedYear] = useState("all");

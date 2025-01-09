@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1048/1048877.png",
+      "description": "Building responsive and interactive user interfaces"
+    },
+    {
+      "name": "Backend Development",
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968322.png",
+      "description": "Developing server-side applications and APIs"
+    },
+    {
+      "name": "Database Management",
+      "icon": "https://cdn-icons-png.flaticon.com/512/4248/4248443.png",
+      "description": "Managing and optimizing database systems"
+    },
+    {
+      "name": "Data Scientist",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      "description": "Analyzing data and building machine learning models"
+    }
+  ]
+}

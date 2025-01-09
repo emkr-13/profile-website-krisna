@@ -6,15 +6,33 @@ export default function About() {
   return (
     <main className="min-h-screen pt-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <h1 className="text-black text-4xl font-bold mb-8">About Me</h1>
+        <h1 className="text-black text-4xl font-bold mb-8 text-center">
+          About Me
+        </h1>
         <div className="prose max-w-none">
-          <p className="text-black text-lg mb-4">
-            Hello! I'm Krisna, a passionate web developer with over 2 years of
-            experience in creating digital solutions. I love turning complex
-            problems into simple, beautiful, and intuitive designs.
+          <p className="text-black text-lg mb-4 text-justify">
+            Halo! Saya Krisna, seorang Fullstack Developer dan
+            Data Scientist dengan pengalaman lebih dari 2 tahun di industri
+            teknologi. Meski menguasai pengembangan fullstack, saya memiliki
+            keahlian khusus dalam backend development dan database management.
+            Saya terus mengembangkan kemampuan front-end untuk mempertajam skill
+            sebagai developer yang komprehensif.
+          </p>
+          <p className="text-black text-lg mb-4 text-justify">
+            Sebagai Data Scientist, saya berfokus pada pengembangan model dan
+            analisis data. Passion saya adalah mengeksplorasi teknologi baru dan
+            terus berinovasi dalam dunia digital. Saya percaya bahwa
+            pembelajaran berkelanjutan adalah kunci untuk tetap relevan dalam
+            industri yang dinamis ini.
+          </p>
+          <p className="text-black text-lg mb-4 text-justify">
+            Kombinasi keahlian dalam software development dan data science
+            memungkinkan saya untuk memberikan solusi teknologi yang holistik
+            dan berbasis data. Saya selalu antusias untuk menghadapi tantangan
+            baru dan berkontribusi dalam proyek-proyek yang inovatif."
           </p>
           <h2 className="text-black text-2xl font-bold mt-8 mb-4">
-            Experience
+            Pengalaman
           </h2>
           <ul className="text-black space-y-6">
             {experienceData.experiences.map((exp, index) => (

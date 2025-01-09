@@ -6,7 +6,8 @@
       "description": "Pembuatan dan Pengembangan Aplikasi",
       "responsibilities": [
         "Membuat Rest Api mengunakaan NodeJS",
-        "Membuat Crawling Data mengunakaan Python"
+        "Membuat Crawling Data mengunakaan Python",
+        "Melakukan Riset terkait Pengembangan Aplikasi"
       ]
     },
     {
@@ -25,6 +26,14 @@
       "responsibilities": [
         "Mengajarkan bahasa pemrograman Prolog kepada mahasiswa",
         "Membuat soal pratikum dan modul terkait bahasa pemrograman Prolog"
+      ]
+    },
+    {
+      "title": "Asisten Dosen Mata Kuliah Matematika Diskrit - Univesitas Atma Jaya Yogyakarta",
+      "period": "Feb 2022 - Jul 2022",
+      "description": "Mendamping Dosen Dalam Mengajar Mata Kuliah Matematika Diskrit",
+      "responsibilities": [
+        "Mengajarkan tentang Matematika Diskrit"
       ]
     }
   ]

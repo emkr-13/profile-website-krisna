@@ -2,10 +2,10 @@
   "experiences": [
     {
       "title": "Backend Developer - PT Bigjava",
-      "period": "Feb 2023 - Present",
+      "period": "Feb 2023 - Sekarang",
       "description": "Pembuatan dan Pengembangan Aplikasi",
       "responsibilities": [
-        "Membuat rest api mengunakaan NodeJS",
+        "Membuat Rest Api mengunakaan NodeJS",
         "Membuat Crawling Data mengunakaan Python"
       ]
     },
@@ -14,8 +14,8 @@
       "period": "Feb 2023 - Jul 2023",
       "description": "Bertangggung Jawab akan kelas Praktikum Mata Kuliah Pemrograman Berorientasi Obyek ",
       "responsibilities": [
-        "Mengajarkan bahasa pemrograman java kepada mahasiswa",
-        "Membuat soal pratikum dan modul terkait bahasa pemrograman java"
+        "Mengajarkan bahasa pemrograman Java kepada mahasiswa",
+        "Membuat soal pratikum dan modul terkait bahasa pemrograman Java"
       ]
     },
     {
@@ -23,8 +23,8 @@
       "period": "Aug 2022 - Jan 2023",
       "description": "Bertangggung Jawab akan kelas Praktikum Mata Kuliah Pengantar Kecerdasan Buatan ",
       "responsibilities": [
-        "Mengajarkan bahasa pemrograman prolog kepada mahasiswa",
-        "Membuat soal pratikum dan modul terkait bahasa pemrograman prolog"
+        "Mengajarkan bahasa pemrograman Prolog kepada mahasiswa",
+        "Membuat soal pratikum dan modul terkait bahasa pemrograman Prolog"
       ]
     }
   ]

@@ -12,26 +12,26 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/images/logo_emkr.png",
+        url: "/images/logo_emkr_crop.png",
         sizes: "32x32",
         type: "image/png",
       },
       {
-        url: "/images/logo_emkr.png",
+        url: "/images/logo_emkr_crop.png",
         sizes: "16x16",
         type: "image/png",
       },
     ],
     apple: [
       {
-        url: "/images/logo_emkr.png",
+        url: "/images/logo_emkr_crop.png",
         sizes: "180x180",
         type: "image/png",
       },
     ],
     shortcut: [
       {
-        url: "/images/logo_emkr.png",
+        url: "/images/logo_emkr_crop.png",
         type: "image/png",
       },
     ],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: "Personal portfolio website showcasing my work and skills",
     images: [
       {
-        url: "/images/logo_emkr.png",
+        url: "/images/logo_emkr_crop.png",
         width: 1200,
         height: 630,
         alt: "EMKR Portfolio",

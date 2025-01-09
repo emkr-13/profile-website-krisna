@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/logo_emkr.png"
+                src="/images/logo_emkr_crop.png"
                 alt="EMKR Logo"
                 width={40}
                 height={40}

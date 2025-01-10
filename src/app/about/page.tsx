@@ -1,5 +1,4 @@
 import experienceData from "../data/experience.json";
-import technologies from "../data/technologies.json";
 import Image from "next/image";
 
 export const metadata = {

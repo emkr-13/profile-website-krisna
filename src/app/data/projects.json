@@ -5,7 +5,8 @@
       "title": "E-commerce Platform",
       "description": "A full-featured e-commerce platform built with Next.js and Stripe.",
       "year": 2024,
-      "link": "https://ecommerce-project.com",
+      "link_github": "https://ecommerce-project.com",
+      "link_publish": "NONE",
       "technologies": ["Next.js", "React", "Stripe"]
     },
     {
@@ -13,7 +14,8 @@
       "title": "Task Management App",
       "description": "A collaborative task management application with real-time updates.",
       "year": 2023,
-      "link": "https://task-management.com",
+      "link_github": "NONE",
+      "link_publish": "https://ecommerce-project.com",
       "technologies": ["React", "Node.js", "Socket.io"]
     }
   ]

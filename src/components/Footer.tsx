@@ -16,6 +16,8 @@ const Footer = () => {
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
                 alt="GitHub"
                 className="w-6 h-6"
+                width={32}  // Add this
+                height={32} // Add this
               />
             </a>
             <a
@@ -28,6 +30,8 @@ const Footer = () => {
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"
                 alt="LinkedIn"
                 className="w-6 h-6"
+                width={32}  // Add this
+                height={32} // Add this
               />
             </a>
           </div>

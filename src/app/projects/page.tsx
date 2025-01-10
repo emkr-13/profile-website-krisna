@@ -53,6 +53,8 @@ const ProjectCard = ({
             src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png"
             alt="publish icon"
             className="w-4 h-4"
+            width={32}  // Add this
+            height={32} // Add this
           />
           Publish
         </button>
@@ -68,6 +70,8 @@ const ProjectCard = ({
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="github icon"
             className="w-4 h-4"
+            width={32}  // Add this
+            height={32} // Add this
           />
           Github
         </button>

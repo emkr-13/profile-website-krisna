@@ -1,5 +1,5 @@
 ## Profile Diri with Next Js
-Website Profile diri sendiri pakai next js karena gratis aja itu aja dan ini masih yang sederhana dulu gitu aja 
+Website Profile diri sendiri pakai next js karena gratis aja itu aja dan ini masih yang sederhana dulu gitu aja nanti tampilan ketika sudah belajar lagi
 
 ## Getting Started
 

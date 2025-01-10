@@ -1,3 +1,4 @@
+import Image from 'next/image'
 const Footer = () => {
   return (
     <footer className="bg-gray-100 text-black py-8">
@@ -11,7 +12,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-gray-400"
             >
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
                 alt="GitHub"
                 className="w-6 h-6"
@@ -23,7 +24,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="hover:text-gray-400"
             >
-              <img
+              <Image
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"
                 alt="LinkedIn"
                 className="w-6 h-6"

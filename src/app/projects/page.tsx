@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import projectsData from "../data/projects.json";
+import Image from "next/image";
 
 // Types
 type Project = {
@@ -48,7 +49,7 @@ const ProjectCard = ({
               : "text-gray-400 cursor-not-allowed"
           }`}
         >
-          <img 
+          <Image
             src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png"
             alt="publish icon"
             className="w-4 h-4"
@@ -63,7 +64,7 @@ const ProjectCard = ({
               : "text-gray-400 cursor-not-allowed"
           }`}
         >
-          <img 
+          <Image
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="github icon"
             className="w-4 h-4"

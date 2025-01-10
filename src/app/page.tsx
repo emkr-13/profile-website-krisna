@@ -39,7 +39,7 @@ export default function Home() {
                   className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="flex items-center mb-4">
-                    <img
+                    <Image 
                       src={skill.icon}
                       alt={`${skill.name} icon`}
                       className="w-8 h-8 mr-4"

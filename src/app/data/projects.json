@@ -2,21 +2,30 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-commerce Platform",
-      "description": "A full-featured e-commerce platform built with Next.js and Stripe.",
-      "year": 2024,
-      "link_github": "https://ecommerce-project.com",
+      "title": "Aplikasi Food",
+      "description": "Project App Mobile tentang makan sebagai Tugas Besar Mata Kuliah PBP ",
+      "year": 2023,
+      "link_github": "https://github.com/emkr-13/Aplikasi_Food_Kelas_C",
       "link_publish": "NONE",
-      "technologies": ["Next.js", "React", "Stripe"]
+      "technologies": ["Kotlin", "Laravel"]
     },
     {
       "id": 2,
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates.",
-      "year": 2023,
-      "link_github": "NONE",
-      "link_publish": "https://ecommerce-project.com",
-      "technologies": ["React", "Node.js", "Socket.io"]
+      "title": "Crawling Online News",
+      "description": "Crawling dari berita indonesia yang terdiri dari berita Detik, CNN dan Kompas",
+      "year": 2024,
+      "link_github": "https://github.com/emkr-13/service_crawling_online_news_ta",
+      "link_publish": "NONE",
+      "technologies": ["Python"]
+    },
+    {
+      "id": 3,
+      "title": "Tampilan UI Model Tugas Ahkir",
+      "description": "Tampilan Tugas Ahkir untuk mengunkaan model sentimen, LDA, LSA mengunakaan streamlit",
+      "year": 2024,
+      "link_github": "https://github.com/emkr-13/tampilan_ta",
+      "link_publish": "https://ta10530.streamlit.app/",
+      "technologies": ["Python"]
     }
   ]
 }

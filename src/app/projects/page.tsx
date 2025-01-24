@@ -53,7 +53,7 @@ const ProjectCard = ({
             src="https://cdn-icons-png.flaticon.com/512/5956/5956592.png"
             alt="publish icon"
             className="w-4 h-4"
-            width={32}  // Add this
+            width={32} // Add this
             height={32} // Add this
           />
           Publish
@@ -70,7 +70,7 @@ const ProjectCard = ({
             src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
             alt="github icon"
             className="w-4 h-4"
-            width={32}  // Add this
+            width={32} // Add this
             height={32} // Add this
           />
           Github
@@ -90,7 +90,6 @@ const ProjectCard = ({
     </div>
   </div>
 );
-
 
 export default function Projects() {
   const [selectedYear, setSelectedYear] = useState<string>("all");
@@ -138,7 +137,10 @@ export default function Projects() {
             <p className="text-gray-600 max-w-2xl">
               Project yang saya tampilkan di sini adalah project yang bersifat
               Public untuk umum. Project yang bersifat Private dan Riset saya
-              lakukan tidak tampilkan disini.
+              belum di buat kedalam service dan engine seperti Crawling
+              Data,Automasi Website dan Mobile, OpenCV untuk Object
+              Detection,Optical Character Recognition (OCR), Model Yolo untuk
+              Object Detection.
             </p>
           </div>
 

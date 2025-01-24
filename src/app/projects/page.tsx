@@ -36,7 +36,7 @@ const ProjectCard = ({
 }) => (
   <div className="border rounded-lg p-6 shadow-sm hover:shadow-md transition-all duration-300 bg-white">
     <h3 className="text-xl font-bold mb-3 text-gray-800">{project.title}</h3>
-    <p className="text-gray-600 mb-4 line-clamp-3">{project.description}</p>
+    <p className="text-gray-600 mb-4 line-clamp-5">{project.description}</p>
 
     <div className="flex justify-between items-center mb-4">
       <span className="text-gray-500 text-sm">Year: {project.year}</span>

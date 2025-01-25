@@ -137,10 +137,11 @@ export default function Projects() {
             <p className="text-gray-600 max-w-2xl">
               Project yang saya tampilkan di sini adalah project yang bersifat
               Public untuk umum. Project yang bersifat Private dan Riset saya
-              belum di buat kedalam service dan engine seperti Crawling
+              belum di buat kedalam service atau engine seperti Crawling
               Data,Automasi Website dan Mobile, OpenCV untuk Object
               Detection,Optical Character Recognition (OCR), Model Yolo untuk
-              Object Detection.
+              Object Detection. tapi rata sudah bisa semua tergantung kebutuhan
+              juga mau bikin service nya atau engine
             </p>
           </div>
 

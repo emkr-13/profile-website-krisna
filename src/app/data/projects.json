@@ -4,22 +4,40 @@
       "id": 1,
       "title": "Aplikasi Food",
       "description": "Project App Mobile tentang makan sebagai Tugas Besar Mata Kuliah PBP ",
-      "year": 2023,
+      "year": 2022,
       "link_github": "https://github.com/emkr-13/Aplikasi_Food_Kelas_C",
       "link_publish": "NONE",
       "technologies": ["Kotlin", "Laravel"]
     },
     {
       "id": 2,
+      "title": "Service Crawling Online News",
+      "description": "Service Crawling Online News yang dimana ada total lebih 20 online news dengan mengunakaan kafka dan ini Kerjaan Kantor maka tidak ada publish dan github",
+      "year": 2023,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Python", "Kafka"]
+    },
+    {
+      "id": 3,
+      "title": "Service Crawling Twitter",
+      "description": "Service Crawling Twitter yang mengambil data tweet berdasarkan keywords dengan mengunakaan kafka dan ini Kerjaan Kantor maka tidak ada publish dan github",
+      "year": 2024,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Python", "Kafka"]
+    },
+    {
+      "id": 4,
       "title": "Crawling Online News",
-      "description": "Service Crawling dari berita indonesia yang terdiri dari berita Detik, CNN dan Kompas",
+      "description": "Service Crawling dari berita indonesia yang terdiri dari berita Detik, CNN dan Kompas ini buat Tugas Ahkir",
       "year": 2024,
       "link_github": "https://github.com/emkr-13/service_crawling_online_news_ta",
       "link_publish": "NONE",
       "technologies": ["Python"]
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Tampilan UI Model Tugas Ahkir",
       "description": "Tampilan Tugas Ahkir untuk mengunkaan model sentimen, LDA, LSA mengunakaan streamlit",
       "year": 2024,
@@ -28,7 +46,7 @@
       "technologies": ["Python"]
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Model Tugas Ahkir",
       "description": "Model klasfikasi yaitu Naiye Bayes, Support Vector Machine (SVM), Logistic Regression , dan Random Forest dan dua model yaitu Latent Dirichlet Allocation (LDA) dan Latent Semantic Analysis (LSA)",
       "year": 2024,

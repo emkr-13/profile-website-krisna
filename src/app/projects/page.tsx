@@ -136,12 +136,14 @@ export default function Projects() {
             <h1 className="text-4xl font-bold text-gray-900">My Projects</h1>
             <p className="text-gray-600 max-w-2xl">
               Project yang saya tampilkan di sini adalah project yang bersifat
-              Public untuk umum. Project yang bersifat Private dan Riset saya
-              belum di buat kedalam service atau engine seperti Crawling
-              Data,Automasi Website dan Mobile, OpenCV untuk Object
-              Detection,Optical Character Recognition (OCR), Model Yolo untuk
-              Object Detection. tapi rata sudah bisa semua tergantung kebutuhan
-              juga mau bikin service nya atau engine
+              Public untuk umum. Project yang bersifat Private yang dimana nama
+              project nya dan jika yang di tampilkan hanya service aja tanpa ada
+              link publish dan link github dan Riset saya belum di buat kedalam
+              service atau engine seperti Crawling Data,Automasi Website dan
+              Mobile, OpenCV untuk Object Detection,Optical Character
+              Recognition (OCR), Model Yolo untuk Object Detection. tapi rata
+              sudah bisa semua tergantung kebutuhan juga mau bikin service nya
+              atau engine
             </p>
           </div>
 

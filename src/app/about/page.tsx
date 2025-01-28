@@ -68,7 +68,7 @@ export default function About() {
                     Download CV
                   </a>
                   <a
-                    href="/pdf/Emmanuel Mathew Krisna Rata_sangat_baru.pdf"
+                    href="/pdf/resume_krisna.pdf"
                     download
                     className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors text-center font-medium flex-1"
                   >

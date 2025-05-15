@@ -4,10 +4,21 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { ReactNode } from "react";
 
+interface Skill {
+  name: string;
+  icon: string;
+  description: string;
+}
+
+interface Technology {
+  name: string;
+  icon: string;
+}
+
 interface AnimatedContentProps {
   children: ReactNode;
-  skills: any[];
-  technologies: any[];
+  skills: Skill[];
+  technologies: Technology[];
 }
 
 export default function AnimatedContent({

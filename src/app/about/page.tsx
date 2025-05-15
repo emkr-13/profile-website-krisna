@@ -2,7 +2,7 @@
 
 import experienceData from "../data/experience.json";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (

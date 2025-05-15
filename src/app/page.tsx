@@ -1,7 +1,6 @@
 "use client";
 
 import Hero from "@/components/Hero";
-import Image from "next/image";
 import technologies from "./data/technologies.json";
 import skills from "./data/skills.json";
 import AnimatedContent from "@/components/AnimatedContent";

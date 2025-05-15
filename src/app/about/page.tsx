@@ -1,21 +1,32 @@
+"use client";
+
 import experienceData from "../data/experience.json";
 import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
 
-export const metadata = {
-  title: "About",
-};
 export default function About() {
   return (
-    <main className="min-h-screen pt-20 bg-white">
+    <main className="min-h-screen pt-20 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <h1 className="text-black text-7xl font-bold mb-8 text-center">
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-black text-7xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600"
+        >
           About Me
-        </h1>
+        </motion.h1>
+
         <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row gap-8 mb-8">
+          <div className="flex flex-col lg:flex-row gap-12 mb-12">
             {/* Left Column - Profile Image */}
-            <div className="lg:w-1/3">
-              <div className="w-64 h-64 relative rounded-full overflow-hidden mx-auto">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="lg:w-1/3"
+            >
+              <div className="w-64 h-64 relative rounded-full overflow-hidden mx-auto shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
                 <Image
                   src="/images/logo_emkr_crop.png"
                   alt="Profile Picture"
@@ -23,12 +34,17 @@ export default function About() {
                   className="object-cover"
                 />
               </div>
-            </div>
+            </motion.div>
 
             {/* Right Column - Text Content & Download Buttons */}
-            <div className="lg:w-2/3">
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="lg:w-2/3"
+            >
               <div className="prose max-w-none">
-                <p className="text-black text-lg mb-4 text-justify">
+                <p className="text-gray-800 text-lg mb-6 text-justify leading-relaxed">
                   Halo! Saya Krisna, seorang Fullstack Developer dan Data
                   Scientist dengan pengalaman lebih dari 2 tahun di industri
                   teknologi. Meski menguasai pengembangan fullstack, saya
@@ -37,87 +53,108 @@ export default function About() {
                   front-end untuk mempertajam skill sebagai developer yang
                   komprehensif.
                 </p>
-                <p className="text-black text-lg mb-4 text-justify">
+                <p className="text-gray-800 text-lg mb-6 text-justify leading-relaxed">
                   Sebagai Data Scientist, saya berfokus pada pengembangan model
                   dan analisis data. Passion saya adalah mengeksplorasi
                   teknologi baru dan terus berinovasi dalam dunia digital. Saya
                   percaya bahwa pembelajaran berkelanjutan adalah kunci untuk
                   tetap relevan dalam industri yang dinamis ini.
                 </p>
-                <p className="text-black text-lg mb-4 text-justify">
+                <p className="text-gray-800 text-lg mb-6 text-justify leading-relaxed">
                   Kombinasi keahlian dalam software development dan data science
                   memungkinkan saya untuk memberikan solusi teknologi yang
                   holistik dan berbasis data. Saya selalu antusias untuk
                   menghadapi tantangan baru dan berkontribusi dalam
                   proyek-proyek yang inovatif.
                 </p>
-                <p className="text-black text-lg mb-4 text-justify">
+                <p className="text-gray-800 text-lg mb-6 text-justify leading-relaxed">
                   Maka berikut CV dan Resume jika tertarik untuk melihat lebih
                   detail mengenai saya
                 </p>
               </div>
 
               {/* Download Buttons Card */}
-              <div className="bg-white rounded-lg shadow-lg p-6">
-                <div className="flex flex-row gap-4">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+                className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
+              >
+                <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="/pdf/Emmanuel Mathew Krisna Rata_sangat_baru.pdf"
                     download
-                    className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center font-medium flex-1"
+                    className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 text-center font-medium flex-1 transform hover:scale-105"
                   >
                     Download CV
                   </a>
                   <a
                     href="/pdf/resume_krisna.pdf"
                     download
-                    className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors text-center font-medium flex-1"
+                    className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-6 py-3 rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all duration-300 text-center font-medium flex-1 transform hover:scale-105"
                   >
                     Download Resume
                   </a>
                 </div>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </div>
         </div>
-        <div className="prose max-w-none">
-          <h2 className="text-black text-3xl font-bold mt-8 mb-4">
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="prose max-w-none"
+        >
+          <h2 className="text-4xl font-bold mt-12 mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
             Pengalaman
           </h2>
 
           <div className="relative">
             {/* Garis timeline vertikal */}
-            <div className="absolute left-4 h-full w-0.5 bg-gray-200"></div>
+            <div className="absolute left-4 h-full w-0.5 bg-gradient-to-b from-blue-500 to-teal-500"></div>
 
             <div className="space-y-8">
               {experienceData.experiences.map((exp, index) => (
-                <div key={index} className="relative pl-12">
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: -30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 * (index + 1) }}
+                  className="relative pl-12"
+                >
                   {/* Dot pada timeline */}
-                  <div className="absolute left-3 -translate-x-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
+                  <div className="absolute left-3 -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full border-4 border-white shadow-lg"></div>
 
                   {/* Card experience */}
-                  <div className="bg-white p-6 rounded-lg shadow-md">
-                    <h3 className="font-bold text-xl text-black">
+                  <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 className="font-bold text-xl text-gray-800 mb-2">
                       {exp.title}
                     </h3>
-                    <p className="text-gray-600 mb-2">{exp.period}</p>
-                    <p className="mb-3 text-black">{exp.description}</p>
+                    <p className="text-blue-600 mb-4 font-medium">
+                      {exp.period}
+                    </p>
+                    <p className="mb-6 text-gray-700 leading-relaxed">
+                      {exp.description}
+                    </p>
 
-                    <h4 className="font-semibold mb-2 text-black">
+                    <h4 className="font-semibold mb-4 text-gray-800">
                       Key Responsibilities:
                     </h4>
-                    <ul className="list-disc pl-5 space-y-1">
+                    <ul className="list-disc pl-5 space-y-2">
                       {exp.responsibilities.map((responsibility, idx) => (
-                        <li key={idx} className="text-gray-800">
+                        <li key={idx} className="text-gray-700">
                           {responsibility}
                         </li>
                       ))}
                     </ul>
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </main>
   );

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import projectsData from "../data/projects.json";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from "next/image";
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
@@ -21,6 +22,7 @@ type Project = {
 type LinkType = "publish" | "github";
 
 // Animation variants
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const itemVariants = {
   hidden: { opacity: 0, y: 30 },
   visible: {

@@ -98,7 +98,7 @@ export default function AnimatedContent({
 
       {/* Bagian teknologi */}
       <motion.div
-        className="mt-12"
+        className="mt-12 overflow-hidden"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
@@ -106,26 +106,30 @@ export default function AnimatedContent({
         <motion.h2 className="text-black text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
           The Technology I Use
         </motion.h2>
-        <div className="overflow-hidden">
-          <div className="flex gap-6 animate-marquee">
-            {[...technologies, ...technologies].map((tech, idx) => (
-              <motion.div
-                key={idx}
-                whileHover={{ scale: 1.1, y: -5 }}
-                className="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:shadow-md transition-all duration-300"
-              >
-                <Image
-                  src={tech.icon}
-                  alt={`${tech.name} icon`}
-                  width={50}
-                  height={50}
-                  unoptimized={true}
-                />
-                <p className="mt-2 text-sm text-gray-700">{tech.name}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
+        <motion.div
+          className="flex gap-6 animate-marquee"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          {[...technologies, ...technologies].map((tech, idx) => (
+            <motion.div
+              key={idx}
+              variants={itemVariants}
+              whileHover={{ scale: 1.1, y: -5 }}
+              className="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:shadow-md transition-all duration-300"
+            >
+              <Image
+                src={tech.icon}
+                alt={`${tech.name} icon`}
+                width={50}
+                height={50}
+                unoptimized={true}
+              />
+              <p className="mt-2 text-sm text-gray-700">{tech.name}</p>
+            </motion.div>
+          ))}
+        </motion.div>
       </motion.div>
     </section>
   );

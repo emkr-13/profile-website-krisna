@@ -120,13 +120,12 @@ export default function Projects() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             Project yang saya tampilkan di sini adalah project yang bersifat
-            Public untuk umum. Project yang bersifat Private yang dimana nama
-            project nya dan jika yang di tampilkan hanya service aja tanpa ada
-            link publish dan link github dan Riset saya belum di buat kedalam
-            service atau engine seperti Crawling Data,Automasi Website dan
-            Mobile, OpenCV untuk Object Detection,Optical Character Recognition
-            (OCR), Model Yolo untuk Object Detection. tapi rata sudah bisa semua
-            tergantung kebutuhan juga mau bikin service nya atau engine
+            Public untuk umum,lalu project yang bersifat Rahasia saya tidak
+            tampilkan disini dan Untuk Riset saya tampilkan dan mungkin saya
+            tidak mmeberikan untuk link github nya atau Project Kantor tidak saya
+            kasih berikan link nya hanya mungkin hasil gambar riset yang
+            mengambarkan saja atau tulisan saja untuk mengambarkan yang sedang
+            lakukan
           </motion.p>
         </motion.div>
 

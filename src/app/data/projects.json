@@ -7,28 +7,28 @@
       "year": 2022,
       "link_github": "https://github.com/emkr-13/Aplikasi_Food_Kelas_C",
       "link_publish": "NONE",
-      "technologies": ["Kotlin", "Laravel"],
-      "image": "NONE"
+      "technologies": ["Kotlin", "Laravel", "Mysql"],
+      "image": "/images/aplikasiFood.png"
     },
     {
       "id": 2,
-      "title": "Service Crawling Online News",
+      "title": "Service Crawling Online News (Project Kantor)",
       "description": "Service Crawling Online News yang dimana ada total lebih 20 online news dengan mengunakaan kafka dan ini Project Kantor maka tidak ada publish dan github",
       "year": 2023,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Kafka"],
-      "image": "NONE"
+      "technologies": ["Python", "Kafka", "Sqlite"],
+      "image": "/images/jalan_service_online.png"
     },
     {
       "id": 3,
-      "title": "Service Crawling Twitter",
+      "title": "Service Crawling Twitter (Project Kantor)",
       "description": "Service Crawling Twitter yang mengambil data tweet berdasarkan keywords dengan mengunakaan kafka dan ini Project Kantor maka tidak ada publish dan github",
       "year": 2024,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Kafka"],
-      "image": "NONE"
+      "technologies": ["Python", "Kafka", "Sqlite"],
+      "image": "/images/service_crawling_twitter.png"
     },
     {
       "id": 4,
@@ -37,8 +37,8 @@
       "year": 2024,
       "link_github": "https://github.com/emkr-13/service_crawling_online_news_ta",
       "link_publish": "NONE",
-      "technologies": ["Python"],
-      "image": "NONE"
+      "technologies": ["Python", "Sqlite"],
+      "image": "/images/service_crawling_ta.png"
     },
     {
       "id": 5,
@@ -47,18 +47,58 @@
       "year": 2024,
       "link_github": "https://github.com/emkr-13/tampilan_ta",
       "link_publish": "https://ta10530.streamlit.app/",
-      "technologies": ["Python"],
-      "image": "NONE"
+      "technologies": ["Python", "Streamlit"],
+      "image": "/images/streamlit_TA.png"
     },
     {
       "id": 6,
       "title": "Model Tugas Ahkir",
       "description": "Model klasfikasi yaitu Naiye Bayes, Support Vector Machine (SVM), Logistic Regression , dan Random Forest dan dua model yaitu Latent Dirichlet Allocation (LDA) dan Latent Semantic Analysis (LSA)",
       "year": 2024,
-      "link_github": "NONE",
+      "link_github": "https://github.com/emkr-13/model_ta.git",
       "link_publish": "NONE",
       "technologies": ["Python", "Jupyter Notebook"],
-      "image": "NONE"
+      "image": "/images/model_ta.png"
+    },
+    {
+      "id": 7,
+      "title": "Desain Webiste Yayasan Yohanes Gabriel",
+      "description": "Desain Aplikasi untuk evaluasi Pengajar",
+      "year": 2022,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Figma"],
+      "image": "/images/desain_website_yohanesgabriel.png"
+    },
+    {
+      "id": 8,
+      "title": "Service Crawling Twitter with apify",
+      "description": "Service Crawling Twiiter pakai apify dan mengunakaan kafka",
+      "year": 2025,
+      "link_github": "https://github.com/emkr-13/crawling_twitter_apify_v1.git",
+      "link_publish": "NONE",
+      "technologies": ["Python", "Kafka", "Sqlite"],
+      "image": "/images/crawling_with_apify.png"
+    },
+    {
+      "id": 9,
+      "title": "Riset Object Detection in Mobile",
+      "description": "bersifat riset dengan opsi pengembangan lebih besar kalau ada kerja sama, object detection di Mobile dan bisa di lain juga mengunakaan yolo",
+      "year": 2025,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Python", "Yolo"],
+      "image": "/images/yolo_dector_object.png"
+    },
+    {
+      "id": 10,
+      "title": "Backend Service Aplikasi Kantor (Project Kantor)",
+      "description": "Backend Service untuk aplikasi Kantor yang tidak bisa di buka untuk umum itu aja ",
+      "year": 2023,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["NodeJs", "Sequelize", "Postgresql","Websocket"],
+      "image": "/images/backend_kantor.png"
     }
   ]
 }

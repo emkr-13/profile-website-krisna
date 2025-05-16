@@ -3,6 +3,7 @@
 import experienceData from "../data/experience.json";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import ExperienceCard from "@/components/ExperienceCard";
 
 export default function About() {
   return (
@@ -127,29 +128,13 @@ export default function About() {
                   {/* Dot pada timeline */}
                   <div className="absolute left-3 -translate-x-1/2 w-4 h-4 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full border-4 border-white shadow-lg"></div>
 
-                  {/* Card experience */}
-                  <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
-                    <h3 className="font-bold text-xl text-gray-800 mb-2">
-                      {exp.title}
-                    </h3>
-                    <p className="text-blue-600 mb-4 font-medium">
-                      {exp.period}
-                    </p>
-                    <p className="mb-6 text-gray-700 leading-relaxed">
-                      {exp.description}
-                    </p>
-
-                    <h4 className="font-semibold mb-4 text-gray-800">
-                      Key Responsibilities:
-                    </h4>
-                    <ul className="list-disc pl-5 space-y-2">
-                      {exp.responsibilities.map((responsibility, idx) => (
-                        <li key={idx} className="text-gray-700">
-                          {responsibility}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  {/* Use the ExperienceCard component */}
+                  <ExperienceCard
+                    title={exp.title}
+                    period={exp.period}
+                    description={exp.description}
+                    responsibilities={exp.responsibilities}
+                  />
                 </motion.div>
               ))}
             </div>

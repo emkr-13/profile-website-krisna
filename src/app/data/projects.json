@@ -97,8 +97,38 @@
       "year": 2023,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["NodeJs", "Sequelize", "Postgresql","Websocket"],
+      "technologies": ["NodeJs", "Sequelize", "Postgresql", "Websocket"],
       "image": "/images/backend_kantor.png"
+    },
+    {
+      "id": 11,
+      "title": "Backend Service Store Inventory Management(SIM)",
+      "description": "Backend Service Store Inventory Management ini project pribadi lagi onprogress",
+      "year": 2025,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Bun", "Drizzle", "Postgresql"],
+      "image": "/images/backend_bun_sim.png"
+    },
+    {
+      "id": 12,
+      "title": "Vue Store Inventory Management(SIM)",
+      "description": "Vue Store Inventory Management ini project pribadi lagi onprogress",
+      "year": 2025,
+      "link_github": "https://github.com/emkr-13/vue_sim.git",
+      "link_publish": "NONE",
+      "technologies": ["NodeJs", "Vue"],
+      "image": "/images/vue_sim.png"
+    },
+    {
+      "id": 13,
+      "title": "Next Store Inventory Management(SIM)",
+      "description": "Next Store Inventory Management ini project pribadi lagi onprogress",
+      "year": 2025,
+      "link_github": "https://github.com/emkr-13/next_sim.git",
+      "link_publish": "NONE",
+      "technologies": ["NodeJs", "NextJS"],
+      "image": "/images/next_sim.png"
     }
   ]
 }

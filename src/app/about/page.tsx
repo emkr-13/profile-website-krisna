@@ -29,7 +29,7 @@ export default function About() {
             >
               <div className="w-64 h-64 relative rounded-full overflow-hidden mx-auto shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
                 <Image
-                  src="/images/logo_emkr_crop.png"
+                  src="/images/undraw_in-the-office_e7pg.svg"
                   alt="Profile Picture"
                   fill
                   className="object-cover"

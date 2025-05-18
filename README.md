@@ -1,24 +1,23 @@
-## Profile Diri with Next Js
-Website Profile diri sendiri pakai next js karena gratis aja itu aja dan ini masih yang sederhana dulu gitu aja nanti tampilan ketika sudah belajar lagi
+## Profile Diri with Next.js
+
+Website profile diri sendiri menggunakan Next.js karena gratis. Ini adalah versi sederhana, dan tampilan akan diperbaiki seiring dengan pembelajaran lebih lanjut.
 
 ## Getting Started
 
-First, run the development server:
+Untuk memulai, jalankan server pengembangan:
 
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
+# atau
 pnpm dev
-# or
+# atau
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Anda dapat mulai mengedit halaman dengan memodifikasi `app/page.tsx`. Halaman akan otomatis diperbarui saat Anda mengedit file tersebut.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-
+Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) untuk secara otomatis mengoptimalkan dan memuat [Geist](https://vercel.com/font), sebuah keluarga font baru untuk Vercel.

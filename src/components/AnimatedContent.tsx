@@ -49,61 +49,80 @@ export default function AnimatedContent({
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-12">
+      {/* What I Do Section */}
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 gap-8"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
+        className="mb-12"
       >
-        <motion.div variants={itemVariants}>
-          <motion.h2 className="text-black text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
-            What I Do
-          </motion.h2>
-          <motion.div className="space-y-4">{children}</motion.div>
-        </motion.div>
+        <motion.h2 className="text-black text-4xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
+          What I Do
+        </motion.h2>
 
-        <motion.div variants={itemVariants}>
-          <motion.h2 className="text-black text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
-            Skills
-          </motion.h2>
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4"
-            variants={containerVariants}
-          >
-            {skills.map((skill, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                whileHover={{ scale: 1.03 }}
-                className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
-              >
-                <div className="flex items-center mb-4">
-                  <Image
-                    src={skill.icon}
-                    alt={`${skill.name} icon`}
-                    className="w-8 h-8 mr-4"
-                    width={32}
-                    height={32}
-                  />
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    {skill.name}
-                  </h3>
-                </div>
-                <p className="text-gray-600">{skill.description}</p>
-              </motion.div>
-            ))}
-          </motion.div>
+        <motion.div
+          className="p-8 bg-transparent flex flex-col md:flex-row gap-8 items-center"
+          variants={itemVariants}
+        >
+          <Image
+            src="/images/undraw_web-developer_ggt0.svg"
+            alt="Web Developer"
+            width={500}
+            height={500}
+            className="mb-4 md:mb-0"
+          />
+          <div className="space-y-5 text-lg">{children}</div>
         </motion.div>
       </motion.div>
 
-      {/* Bagian teknologi */}
+      {/* Skills Section */}
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        className="mb-12"
+      >
+        <motion.h2 className="text-black text-3xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
+          Skills
+        </motion.h2>
+
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 gap-6"
+          variants={containerVariants}
+        >
+          {skills.map((skill, index) => (
+            <motion.div
+              key={index}
+              variants={itemVariants}
+              whileHover={{ scale: 1.03 }}
+              className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex items-center mb-4">
+                <Image
+                  src={skill.icon}
+                  alt={`${skill.name} icon`}
+                  className="w-10 h-10 mr-4"
+                  width={40}
+                  height={40}
+                />
+                <h3 className="text-xl font-semibold text-gray-800">
+                  {skill.name}
+                </h3>
+              </div>
+              <p className="text-gray-600">{skill.description}</p>
+            </motion.div>
+          ))}
+        </motion.div>
+      </motion.div>
+
+      {/* Technologies Section */}
       <motion.div
         className="mt-12 overflow-hidden"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        <motion.h2 className="text-black text-3xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
+        <motion.h2 className="text-black text-3xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
           The Technology I Use
         </motion.h2>
         <motion.div

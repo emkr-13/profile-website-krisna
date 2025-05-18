@@ -6,6 +6,7 @@ import projectsData from "../data/projects.json";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
+import ProjectHeader from "@/components/ProjectHeader";
 
 // Types
 type Project = {
@@ -89,6 +90,9 @@ export default function Projects() {
     },
   };
 
+  const projectDescription =
+    "Project yang saya tampilkan di sini adalah project yang bersifat Public untuk umum, lalu project yang bersifat Rahasia saya tidak tampilkan disini dan Untuk Riset saya tampilkan dan mungkin saya tidak memberikan untuk link github nya atau Project Kantor tidak saya kasih berikan link nya hanya mungkin hasil gambar riset yang mengambarkan saja atau tulisan saja untuk mengambarkan yang sedang lakukan";
+
   return (
     <main className="min-h-screen pt-20 bg-gray-50">
       {showDeployPopup && (
@@ -99,35 +103,7 @@ export default function Projects() {
       )}
 
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <motion.div
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="space-y-4 mb-12"
-        >
-          <motion.h1
-            className="text-4xl font-bold text-gray-900 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            My Projects
-          </motion.h1>
-          <motion.p
-            className="text-gray-600 max-w-2xl"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-          >
-            Project yang saya tampilkan di sini adalah project yang bersifat
-            Public untuk umum,lalu project yang bersifat Rahasia saya tidak
-            tampilkan disini dan Untuk Riset saya tampilkan dan mungkin saya
-            tidak mmeberikan untuk link github nya atau Project Kantor tidak saya
-            kasih berikan link nya hanya mungkin hasil gambar riset yang
-            mengambarkan saja atau tulisan saja untuk mengambarkan yang sedang
-            lakukan
-          </motion.p>
-        </motion.div>
+        <ProjectHeader title="My Projects" description={projectDescription} />
 
         <motion.div
           initial={{ opacity: 0, y: 10 }}

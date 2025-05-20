@@ -65,7 +65,7 @@ export default function AnimatedContent({
           variants={itemVariants}
         >
           <Image
-            src="/images/undraw_web-developer_ggt0.svg"
+            src="/images/undraw_web-developer_ggt0_biru.svg"
             alt="Web Developer"
             width={500}
             height={500}

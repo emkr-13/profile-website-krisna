@@ -83,7 +83,7 @@
     {
       "id": 9,
       "title": "Riset Object Detection in Mobile",
-      "description": "bersifat riset dengan opsi pengembangan lebih besar kalau ada kerja sama, object detection di Mobile dan bisa di lain juga mengunakaan yolo",
+      "description": "Bersifat riset dengan opsi pengembangan lebih besar kalau ada kerja sama, object detection di Mobile dan bisa di lain juga mengunakaan yolo",
       "year": 2025,
       "link_github": "NONE",
       "link_publish": "NONE",
@@ -129,6 +129,26 @@
       "link_publish": "NONE",
       "technologies": ["NodeJs", "NextJS"],
       "image": "/images/next_sim.png"
+    },
+    {
+      "id": 14,
+      "title": "Bot Berita Telegram",
+      "description": "Telebot Berita Indonesia yang dimana notifikasi berita yang baru",
+      "year": 2023,
+      "link_github": "https://github.com/emkr-13/berita_bot",
+      "link_publish": "NONE",
+      "technologies": ["Python", "Bot Telegram"],
+      "image": "/images/berita_bot.png"
+    },
+    {
+      "id": 15,
+      "title": "Riset Optical Character Recognition (OCR) in Mobile",
+      "description": "Bersifat riset dengan opsi pengembangan lebih besar kalau ada kerja sama",
+      "year": 2025,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Python", "Python-tesseract", "EasyOCR","Paddleocr"],
+      "image": "/images/riset_ocr.png"
     }
   ]
 }

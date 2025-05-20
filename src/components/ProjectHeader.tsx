@@ -36,7 +36,7 @@ export default function ProjectHeader({
           className="w-full md:w-2/5"
         >
           <Image
-            src="/images/undraw_project-completed_fwjq.svg"
+            src="/images/undraw_project-completed_fwjq_biru.svg"
             alt="Projects"
             width={350}
             height={250}

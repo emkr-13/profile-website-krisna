@@ -17,7 +17,7 @@
       "year": 2023,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Kafka", "Sqlite"],
+      "technologies": ["Python", "Kafka", "Sqlite","Postgresql"],
       "image": "/images/jalan_service_online.png"
     },
     {
@@ -64,7 +64,7 @@
       "id": 7,
       "title": "Desain Webiste Yayasan Yohanes Gabriel",
       "description": "Desain Aplikasi untuk evaluasi Pengajar",
-      "year": 2022,
+      "year": 2021,
       "link_github": "NONE",
       "link_publish": "NONE",
       "technologies": ["Figma"],

@@ -2,6 +2,16 @@
   "projects": [
     {
       "id": 1,
+      "title": "Desain Webiste Yayasan Yohanes Gabriel",
+      "description": "Desain Aplikasi untuk evaluasi Pengajar",
+      "year": 2021,
+      "link_github": "NONE",
+      "link_publish": "NONE",
+      "technologies": ["Figma"],
+      "image": "/images/desain_website_yohanesgabriel.png"
+    },
+    {
+      "id": 2,
       "title": "Aplikasi Food",
       "description": "Project App Mobile tentang makan sebagai Tugas Besar Mata Kuliah PBP ",
       "year": 2022,
@@ -11,17 +21,17 @@
       "image": "/images/aplikasiFood.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Service Crawling Online News (Project Kantor)",
       "description": "Service Crawling Online News yang dimana ada total lebih 20 online news dengan mengunakaan kafka dan ini Project Kantor maka tidak ada publish dan github",
       "year": 2023,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Kafka", "Sqlite","Postgresql"],
+      "technologies": ["Python", "Kafka", "Sqlite", "Postgresql"],
       "image": "/images/jalan_service_online.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Service Crawling Twitter (Project Kantor)",
       "description": "Service Crawling Twitter yang mengambil data tweet berdasarkan keywords dengan mengunakaan kafka dan ini Project Kantor maka tidak ada publish dan github",
       "year": 2024,
@@ -31,7 +41,7 @@
       "image": "/images/service_crawling_twitter.png"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Crawling Online News",
       "description": "Service Crawling dari berita indonesia yang terdiri dari berita Detik, CNN dan Kompas ini buat Tugas Ahkir",
       "year": 2024,
@@ -41,7 +51,7 @@
       "image": "/images/service_crawling_ta.png"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Tampilan UI Model Tugas Ahkir",
       "description": "Tampilan Tugas Ahkir untuk mengunkaan model sentimen, LDA, LSA mengunakaan streamlit",
       "year": 2024,
@@ -51,7 +61,7 @@
       "image": "/images/streamlit_TA.png"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Model Tugas Ahkir",
       "description": "Model klasfikasi yaitu Naiye Bayes, Support Vector Machine (SVM), Logistic Regression , dan Random Forest dan dua model yaitu Latent Dirichlet Allocation (LDA) dan Latent Semantic Analysis (LSA)",
       "year": 2024,
@@ -59,16 +69,6 @@
       "link_publish": "NONE",
       "technologies": ["Python", "Jupyter Notebook"],
       "image": "/images/model_ta.png"
-    },
-    {
-      "id": 7,
-      "title": "Desain Webiste Yayasan Yohanes Gabriel",
-      "description": "Desain Aplikasi untuk evaluasi Pengajar",
-      "year": 2021,
-      "link_github": "NONE",
-      "link_publish": "NONE",
-      "technologies": ["Figma"],
-      "image": "/images/desain_website_yohanesgabriel.png"
     },
     {
       "id": 8,
@@ -147,7 +147,7 @@
       "year": 2025,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Python-tesseract", "EasyOCR","Paddleocr"],
+      "technologies": ["Python", "Python-tesseract", "EasyOCR", "Paddleocr"],
       "image": "/images/riset_ocr.png"
     }
   ]

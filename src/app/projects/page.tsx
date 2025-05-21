@@ -90,8 +90,9 @@ export default function Projects() {
     },
   };
 
-  const projectDescription =
-    "Project yang saya tampilkan di sini adalah project yang bersifat Public untuk umum, lalu project yang bersifat Rahasia saya tidak tampilkan disini dan Untuk Riset saya tampilkan dan mungkin saya tidak memberikan untuk link github nya atau Project Kantor tidak saya kasih berikan link nya hanya mungkin hasil gambar riset yang mengambarkan saja atau tulisan saja untuk mengambarkan yang sedang lakukan";
+  const projectDescription = 
+    "Project yang ditampilkan di sini bersifat publik dan dapat diakses oleh umum. Sementara itu, project yang bersifat rahasia atau internal kantor tidak saya tampilkan secara rinci, termasuk tautan GitHub-nya. Untuk project riset, saya hanya menyertakan deskripsi, tangkapan layar, atau ilustrasi visual yang menggambarkan proses atau hasilnya, tanpa mencantumkan repository kode secara langsung.";
+
 
   return (
     <main className="min-h-screen pt-20 bg-gray-50">

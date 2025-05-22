@@ -87,7 +87,7 @@
       "year": 2025,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Yolo"],
+      "technologies": ["Python", "Yolo","OpenCV"],
       "image": "/images/yolo_dector_object.png"
     },
     {
@@ -147,7 +147,7 @@
       "year": 2025,
       "link_github": "NONE",
       "link_publish": "NONE",
-      "technologies": ["Python", "Python-tesseract", "EasyOCR", "Paddleocr"],
+      "technologies": ["Python", "Python-tesseract", "EasyOCR", "Paddleocr","OpenCV"],
       "image": "/images/riset_ocr.png"
     }
   ]

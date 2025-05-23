@@ -126,7 +126,7 @@
       "description": "Next Store Inventory Management ini project pribadi lagi onprogress",
       "year": 2025,
       "link_github": "https://github.com/emkr-13/next_sim.git",
-      "link_publish": "NONE",
+      "link_publish": "https://next-sim-demo.vercel.app/login",
       "technologies": ["NodeJs", "NextJS"],
       "image": "/images/next_sim.png"
     },

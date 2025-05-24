@@ -108,7 +108,7 @@
       "link_github": "https://github.com/emkr-13/backend-bun-sim.git",
       "link_publish": "NONE",
       "technologies": ["Bun", "Drizzle", "Postgresql"],
-      "image": "/images/backend_bun_sim.png"
+      "image": "/images/swangger_bun_sim.png"
     },
     {
       "id": 12,

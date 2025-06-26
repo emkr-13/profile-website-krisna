@@ -116,7 +116,7 @@
       "description": "Vue Store Inventory Management ini project pribadi lagi onprogress",
       "year": 2025,
       "link_github": "https://github.com/emkr-13/vue_sim.git",
-      "link_publish": "https://vue-sim.vercel.app/login",
+      "link_publish": "https://vue-sim.vercel.app",
       "technologies": ["NodeJs", "Vue"],
       "image": "/images/vue_sim.png"
     },

@@ -1,6 +1,15 @@
 {
   "experiences": [
     {
+      "title": "FullStack Developer  - PT AQ Business Consulting Indonesia",
+      "period": "Jul 2025 - sekarang",
+      "description": "Pembuatan dan Pengembangan Aplikasi",
+      "responsibilities": [
+        "Membuat Aplikasi dengan Laravel",
+        "Maintance Aplikasi yang sudah ada"
+      ]
+    },
+    {
       "title": "Backend Developer - PT Bigjava",
       "period": "Feb 2023 - Feb 2025",
       "description": "Pembuatan dan Pengembangan Aplikasi",
@@ -32,9 +41,7 @@
       "title": "Asisten Dosen Mata Kuliah Matematika Diskrit - Univesitas Atma Jaya Yogyakarta",
       "period": "Feb 2022 - Jul 2022",
       "description": "Mendamping Dosen Dalam Mengajar Mata Kuliah Matematika Diskrit",
-      "responsibilities": [
-        "Mengajarkan tentang Matematika Diskrit"
-      ]
+      "responsibilities": ["Mengajarkan tentang Matematika Diskrit"]
     }
   ]
 }

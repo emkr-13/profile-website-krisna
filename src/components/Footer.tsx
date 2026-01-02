@@ -1,10 +1,13 @@
 import Image from "next/image";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-100 text-black py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
-          <p className="text-center">© 2025 EMKR. All rights reserved.</p>
+          <p className="text-center">
+            © {currentYear} EMKR. All rights reserved.
+          </p>
           <div className="flex space-x-4 mt-4">
             <a
               href="https://github.com/emkr-13"
